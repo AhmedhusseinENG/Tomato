@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="stylesheet" href="/animation.css" />
+    <link rel="stylesheet" href="/src/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <title>Tomato</title>
+  </head>
+
+  <body>
+    <!-- loading-Animation -->
+
+    <div class="full-page" id="loading">
+      <div class="lds-spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- Log in/Sign Up OverLay -->
+    <div id="overlay"></div>
+    <!-- main-app-container -->
+    <div id="root"></div>
+    <!-- loading-Animation js -->
+    <script>
+      const LoadingAnimation = document.getElementById("loading");
+      document.addEventListener("readystatechange", (event) => {
+        if (event.target.readyState === "complete") {
+          LoadingAnimation.classList.add("d-none");
+        }
+      });
+    </script>
+    <!--   main source of  react.js    -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
