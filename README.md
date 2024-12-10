@@ -1,10 +1,14 @@
-# Tomato
+## **Tomato - Delivery Food Web Application**
 
-## React + Vite
+### React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive delivery-food web application built using **React.js**, **Vite**, **React Router DOM**, and **CSS3**.
 
-Currently, two official plugins are available:
+- **Designed & Developed**: A full-featured delivery-food web app with a seamless user interface.
+- **Performance Optimization**: Improved app performance using **React Performance Hooks** and **lazy loading** for components, reducing initial load time.
+- **Enhanced User Engagement**: Implemented a **loading page** to keep users engaged while data is being fetched.
+- **Code Splitting**: Utilized code splitting to enhance the maintainability and scalability of the app.
+- **Search Functionality**: Developed an advanced **search feature** that allows users to quickly find items.
+- **Shopping Cart Features**: Integrated shopping cart functionality with features like **add-to-cart**, **remove**, and **remove-all**, ensuring a smooth e-commerce experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## [Live Demo](https://tomato-gamma-eight.vercel.app/)
